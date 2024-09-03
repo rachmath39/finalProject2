@@ -49,4 +49,13 @@ HMACSHA256(
   base64UrlEncode(payload),secret
 ) 
 
+echo "# finalProject2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/rachmath39/finalProject2.git
+git push -u origin main
+
+
 secret = kode rahasia yang diencrypt dgn secret base64 encoded
